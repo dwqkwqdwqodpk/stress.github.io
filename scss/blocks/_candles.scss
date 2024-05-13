@@ -1,0 +1,58 @@
+.candles__row {
+    display: flex;
+    background-color: #9C8554;
+    color: #B2B2B2;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+}
+
+.candles__info {
+    width: 25%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.candles__title {
+
+
+}
+
+.candles__text {
+    p {
+        margin-bottom: 21px;
+    }
+}
+
+.candles__link {
+    color: #B2B2B2;
+    text-transform: uppercase;
+    border-bottom: 1px solid #B2B2B2;
+    padding-bottom: 5px;
+}
+
+
+.candles__bg {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    min-height: 800px;
+    flex-grow: 1;
+}
+
+.candles__bg-img {
+    background-image: url(../img/candles.png);
+    background-size: cover;
+    flex-grow: 1;
+}
+
+.candles__down-text {
+    padding: 40px;
+    display: flex;
+    justify-content: end;
+    font-size: 25px;
+    line-height: 32px;
+
+}
