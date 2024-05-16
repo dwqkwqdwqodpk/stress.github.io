@@ -1,0 +1,43 @@
+.images__screen {
+    height: 100vh;
+}
+.images__column {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    text-transform: uppercase;
+    color: #262626;
+}
+
+.images__item{
+    padding: 40px 45px;
+}
+
+
+.images__sprinker {
+    width: 50%;
+    display: flex;
+    align-items: end;
+    background-image: url(../img/images-screen/Rectangle.png);
+    background-size: cover;
+    background-position: center center;
+    flex-grow: 1;
+    padding: 40px;
+}
+.images__cream {
+    width: 50%;
+    display: flex;
+    align-items: end;
+    background-image: url(../img/images-screen/Rectangle2.png);
+    background-size: cover;
+    flex-grow: 1;
+    padding: 40px;
+}
+
+.images__screen-text{
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #262626;
+    padding-bottom: 5px;
+}

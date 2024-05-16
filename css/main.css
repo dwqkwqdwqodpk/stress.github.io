@@ -92,11 +92,17 @@ legend {
 }
 html, body {
   font-family: "roboto-as";
+  letter-spacing: 0.5px;
+}
+
+.none {
+  display: none;
 }
 
 :root {
   --header-bg:#E7F066;
   --main-color:#262626;
+  --hover:#b3a0a0;
 }
 
 .header {
@@ -120,6 +126,7 @@ html, body {
   flex-grow: 1;
   background-image: url(../img/header-bg.png);
   background-size: cover;
+  background-position: center center;
   padding: 25px;
 }
 
@@ -257,6 +264,7 @@ html, body {
 .candles__bg-img {
   background-image: url(../img/candles.png);
   background-size: cover;
+  background-position: center center;
   flex-grow: 1;
 }
 
@@ -266,4 +274,215 @@ html, body {
   justify-content: end;
   font-size: 25px;
   line-height: 32px;
+}
+
+.images__screen {
+  height: 100vh;
+}
+
+.images__column {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100%;
+  text-transform: uppercase;
+  color: #262626;
+}
+
+.images__item {
+  padding: 40px 45px;
+}
+
+.images__sprinker {
+  width: 50%;
+  display: flex;
+  align-items: end;
+  background-image: url(../img/images-screen/Rectangle.png);
+  background-size: cover;
+  background-position: center center;
+  flex-grow: 1;
+  padding: 40px;
+}
+
+.images__cream {
+  width: 50%;
+  display: flex;
+  align-items: end;
+  background-image: url(../img/images-screen/Rectangle2.png);
+  background-size: cover;
+  flex-grow: 1;
+  padding: 40px;
+}
+
+.images__screen-text {
+  font-size: 12px;
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #262626;
+  padding-bottom: 5px;
+}
+
+.benefit {
+  height: 100vh;
+}
+
+.benefit__row {
+  height: 100%;
+  padding: 50px 25px;
+  display: flex;
+}
+
+.benefit__img {
+  background-image: url(../img/about-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 56%;
+}
+
+.benefit__text {
+  line-height: 19px;
+  letter-spacing: 0.5px;
+  color: #262626;
+  padding: 30px;
+  max-width: 311px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.benefit__about {
+  font-size: 15px;
+  margin-bottom: 11px;
+}
+
+.benefit__title {
+  font-size: 28px;
+  line-height: 32px;
+  margin-bottom: 39px;
+}
+
+.benefit__lowest {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.benefit__higher {
+  font-size: 16px;
+  margin-bottom: 22px;
+}
+
+.benefit__link {
+  font-size: 12px;
+  border-bottom: 1px solid #262626;
+  padding-bottom: 5px;
+  color: #262626;
+  transition: 0.2s color ease-in;
+}
+.benefit__link:hover {
+  color: #b3a0a0;
+}
+
+.link__wrapper {
+  display: flex;
+}
+
+.girl__row {
+  display: flex;
+  background-color: #A26779;
+  height: 100vh;
+}
+
+.girl__info {
+  font-size: 15px;
+  line-height: 19px;
+  color: #B2B2B2;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 40px 15px;
+  width: 25%;
+}
+
+.girl__desc {
+  padding: 0px 30px 0px 25px;
+}
+
+.girl__desc-text {
+  margin-bottom: 22px;
+}
+
+.girl__link {
+  color: #B2B2B2;
+  border-bottom: 1px solid #B2B2B2;
+  padding-bottom: 5px;
+  transition: color 0.15s ease-in;
+}
+.girl__link:hover {
+  color: #dbdbdb;
+}
+
+.girl__bg {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.girl__bg-img {
+  background-image: url(../img/girl.png);
+  flex-grow: 1;
+  background-size: cover;
+}
+
+.girl__bg-text {
+  padding: 40px;
+  display: flex;
+  justify-content: flex-end;
+  color: #B2B2B2;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.power__bg {
+  height: 100vh;
+  background-image: url(../img/power.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.power__text-wrapper {
+  padding: 40px 15px;
+  max-width: 320px;
+}
+
+.power__text {
+  padding: 80px 0 0 25px;
+  color: #262626;
+  line-height: 19px;
+}
+
+.power__subtitle {
+  margin-bottom: 11px;
+  font-size: 15px;
+}
+
+.power__title {
+  margin-bottom: 40px;
+  font-size: 25px;
+  line-height: 32px;
+}
+
+.power__desc {
+  margin-bottom: 3px;
+  font-size: 16px;
+}
+
+.power__link {
+  color: #262626;
+  font-size: 11px;
+  border-bottom: 1px solid #262626;
+  padding-bottom: 5px;
+  transition: color 0.15 ease-in;
+}
+.power__link:hover {
+  color: #5f5a5a;
 }/*# sourceMappingURL=main.css.map */
