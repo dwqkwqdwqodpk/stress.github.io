@@ -631,19 +631,18 @@ html, body {
 .input-name {
   border-bottom: 1px solid #CCCCCC;
   width: 250px;
-  height: 1px;
   margin-bottom: 8px;
 }
 
 .input-email {
   border-bottom: 1px solid #CCCCCC;
   width: 250px;
-  height: 1px;
   margin-bottom: 8px;
 }
 
 .submit {
   margin-top: 18px;
+  transition: color 0.15 ease-in;
 }
 .submit:hover {
   color: #dfdede;
