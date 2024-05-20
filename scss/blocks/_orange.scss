@@ -1,0 +1,56 @@
+.orange {
+
+}
+.orange__row {
+    display: flex;
+    background-color: #504B4D;
+    font-size: 15px;
+    line-height: 19px;
+    color: #B2B2B2;
+    height: 100vh;
+}
+.orange__info {
+    width: 25%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.orange__desc {
+    max-width: 330px;
+}
+
+.orange__desc-text {
+    margin-bottom: 22px;
+}
+
+.orange__link   {
+    border-bottom: 1px solid #B2B2B2;
+    padding-bottom: 5px;
+    color: #B2B2B2;
+    transition: color 0.15 ease-in;
+    &:hover {
+        color: #b3a0a0;
+    }
+}
+
+.orange__bg {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.orange__bg-img {
+    background-image: url(../img/orange.png);
+    background-size: cover;
+    flex-grow: 1;
+}
+
+.orange__bg-text {
+    display: flex;
+    justify-content: flex-end;
+    padding: 47px 40px 33px 0;
+    font-size: 25px;
+    line-height: 32px;
+}

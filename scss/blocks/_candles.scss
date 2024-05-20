@@ -5,6 +5,7 @@
     font-size: 15px;
     line-height: 19px;
     letter-spacing: 0.5px;
+    height: 100vh;
 }
 
 .candles__info {
@@ -31,14 +32,16 @@
     text-transform: uppercase;
     border-bottom: 1px solid #B2B2B2;
     padding-bottom: 5px;
+    transition: color 0.15s ease-in;
+    &:hover {
+        color: #d4d4d4;
+    }
 }
 
 
 .candles__bg {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    min-height: 800px;
     flex-grow: 1;
 }
 
